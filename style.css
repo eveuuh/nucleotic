@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+
+body {
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-style:normal;
+    font-weight:400;
+    margin: 0px;
+}
+
+
+/** banner**/
+
+.banner {
+    height: 100vh;
+    padding-bottom: 340px;
+    
+}
+
+.banner > h1 {
+    color: white;
+    margin-left:430px;
+    font-size:22px;
+    justify-content: center;
+    font-style:normal;
+    font-weight:200;
+
+}
+.banner > h2 {
+    color:#33d5e8;
+    margin-left:580px;
+    font-size:20px;
+
+}
+
+img.imgsite {
+    margin-top:300px;
+    margin-left:430px;
+}
+
+button.logiciel {
+    background-color:#d95d77;
+    color:white;
+    border-radius: 10px 10px 10px 10px;
+    margin-left:580px;
+    width:217px;
+    height:30px;
+    border:none;
+    margin-top:340px;
+    font-weight: bold;
+}
+
+/**description du logiciel **/
+
+.description {
+    background-color: #e0ded6;
+    height: 100vh;
+    padding-bottom: 450px;
+}
+
+.description > h1 {
+    color: #353434;
+    font-size:26px;
+    text-align: center;
+    font-style:normal;
+    font-weight:200;
+    margin-left: 286px;
+
+}
+.description > h2 {
+    color:#38a9b4;
+    font-size:16px;
+    text-align: center;
+    font-style:bold;
+    margin-left: 286px;
+
+}
+
+img.logiciel{
+    height: 50px;
+    margin-left: 90px;
+    margin-top: 15px;
+}
+
+img.window{
+    height: 450px;
+    margin-left: 413px;
+    margin-top: 90px;
+    
+}
+img.cercle{
+    color:#38a9b4;
+    height: 550px;
+    position: absolute;
+    top:1309px;
+    left:400px;
+}
+
+
+button.aventure{
+    background-color:#d95d77;
+    color:white;
+    border-radius: 10px 10px 10px 10px;
+    margin-left:580px;
+    width:167px;
+    height:46px;
+    border:none;
+    margin-top:17px;
+    font-weight: bold;
+    position: relative;
+
+}
+
+/** partie du logo**/
+.logosite {
+    background-color: grey;
+}
+
+
+
+
+/**footer**/
+
+footer {
+    height: 100vh;
+    background-color: #c0d031;
+    width: 100%;
+    bottom:0;
+}
+
+footer p {
+    color:white;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size:12px;
+}
+
+footer h2 {
+    color:white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: normal;
+}    
+
+img.team {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    
+}
+
+.bordure {
+    border-bottom: 1px solid white;
+} 
+
+button.histoire {
+    background-color:#d95d77;
+    color:white;
+    border-radius: 10px 10px 10px 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:217px;
+    height:30px;
+    border:none;
+    margin-top:-14px;
+    font-weight: bold;
+}
+
+
