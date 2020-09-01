@@ -71,15 +71,16 @@ button.logiciel {
     color:#38a9b4;
     font-size:16px;
     text-align: center;
-    font-style:bold;
+    font-weight:bold;
     margin-left: 286px;
 
 }
 
 img.logiciel{
     height: 50px;
-    margin-left: 90px;
+    margin-left: 175px;
     margin-top: 15px;
+    margin-bottom: 35px;
 }
 
 img.window{
@@ -92,16 +93,27 @@ img.cercle{
     color:#38a9b4;
     height: 550px;
     position: absolute;
-    top:1309px;
+    top:1960px;
     left:400px;
 }
 
 
+ #subdivision {
+    display:flex;
+    flex-direction: row;
+}
+
+.text1{
+    display: inline;
+}
+.text2{
+    display: inline;
+}
 button.aventure{
     background-color:#d95d77;
     color:white;
     border-radius: 10px 10px 10px 10px;
-    margin-left:580px;
+    margin-left:624px;
     width:167px;
     height:46px;
     border:none;
@@ -111,43 +123,174 @@ button.aventure{
 
 }
 
+img.perso {
+    position: absolute;
+    left:400px;
+    margin-top:379px;
+    height:250px;
+    width:120px;
+   
+}
+
 /** partie du logo**/
 .logosite {
-    background-color: grey;
+    background-color:#F0F0F0;
+    height: 80px;
+    border-top:1px solid #c0d031;
+}
+img.imgsite1 {
+    margin-top:10px;
+    margin-left:92px;
+    height: 50px;
+}
+
+/**forfaits*/
+
+.forfait {
+    background-color: #dd9021;
+    height: 100vh;
+    padding-top: 10px;
+}
+
+.forfait>h2 {
+    color:white;
+    text-align: center;
+    padding-top: 75px;
+    
+}
+
+/**avantage**/
+.avantage {
+    background:linear-gradient(#5e377f,#953667); 
+    height: 50vh;
+    padding-top: 125px;
+    text-align:center;
+    
+}
+
+.avantage>p {
+    color: white;
+    font-size:18px;
+    text-align: center;
+    font-style:normal;
+    font-weight:normal;
+
+}
+
+figure{
+    display: inline-block;
+    text-align: center;
+}
+
+figcaption{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size:16px;
+    font-weight: bold;
+    margin-top : 15px;
+    margin-bottom: 50px;
 }
 
 
+img.icon{
+    flex:33%;
+    width: 70px;
+    border-radius: 50%;
+    background-color: white;
+    padding:35px;
+    display: inline-block;
+    justify-content: space-between;
+
+}
+
+/**tuto**/
+.tuto {
+    height: 100vh;
+    overflow: hidden;
+    background-color:#e3e2dd;
+}    
+
+.vertical-line {
+    border-left:2px solid #b72e1b;
+    height: 100%; 
+    margin-left:650px;
+    
+}
+.left {
+    
+    width: 600px;
+    float:left;
+    padding-top:30px;
+    text-align:center;
+
+}
+
+.right {
+    width: 400px;
+    float:right;
+    padding-top:30px;
+
+}
+img.nucleus{
+    height: 380px;
+    width:380px;
+
+   
+}
+.left>h2 {
+    color:#db597d;
+    text-align: right;
+    margin-top:40px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.left>p {
+    font-family: 'Raleway', sans-serif;
+    font-size:16px;
+    text-align: right;
+    line-height:30px;
+}
 
 
+/**bande logo site **/
 /**footer**/
 
 footer {
-    height: 100vh;
+    height: 100%;
     background-color: #c0d031;
     width: 100%;
     bottom:0;
+    padding-top: 10px;
+   
 }
 
-footer p {
+footer>p {
     color:white;
     justify-content: center;
     text-align: center;
-    font-weight: bold;
-    font-size:12px;
+    font-weight: 600;
+    font-size:16px;
+    justify-content: center;
+    padding-bottom: 50px;
+
 }
 
-footer h2 {
+footer>h2 {
     color:white;
     text-align: center;
     margin-bottom: 20px;
-    font-weight: normal;
+    font-weight: 500;
+    font-size:30px;
+    padding-top: 40px;
+    padding-bottom:40px;
 }    
 
 img.team {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     
 }
 
