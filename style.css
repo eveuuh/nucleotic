@@ -12,7 +12,7 @@ body {
 /** banner**/
 
 .banner {
-    height: 100vh;
+    height: 80vh;
     padding-bottom: 340px;
     
 }
@@ -46,7 +46,8 @@ button.logiciel {
     width:217px;
     height:30px;
     border:none;
-    margin-top:340px;
+    top:185px;
+    position: relative;
     font-weight: bold;
 }
 
@@ -54,8 +55,8 @@ button.logiciel {
 
 .description {
     background-color: #e0ded6;
-    height: 100vh;
-    padding-bottom: 450px;
+    height: 100%;
+    padding-bottom: 100px;
 }
 
 .description > h1 {
@@ -63,13 +64,13 @@ button.logiciel {
     font-size:26px;
     text-align: center;
     font-style:normal;
-    font-weight:200;
+    font-weight:400;
     margin-left: 286px;
 
 }
 .description > h2 {
     color:#38a9b4;
-    font-size:16px;
+    font-size:18px;
     text-align: center;
     font-weight:bold;
     margin-left: 286px;
@@ -85,51 +86,93 @@ img.logiciel{
 
 img.window{
     height: 450px;
-    margin-left: 413px;
-    margin-top: 90px;
+    position: absolute;
     
 }
 img.cercle{
     color:#38a9b4;
     height: 550px;
-    position: absolute;
-    top:1960px;
-    left:400px;
-}
-
-
- #subdivision {
-    display:flex;
-    flex-direction: row;
-}
-
-.text1{
-    display: inline;
-}
-.text2{
-    display: inline;
-}
-button.aventure{
-    background-color:#d95d77;
-    color:white;
-    border-radius: 10px 10px 10px 10px;
-    margin-left:624px;
-    width:167px;
-    height:46px;
-    border:none;
-    margin-top:17px;
-    font-weight: bold;
+    top:-35px;
+    left:2px;
     position: relative;
-
 }
 
 img.perso {
     position: absolute;
-    left:400px;
-    margin-top:379px;
+    left:406px;
+    margin-top:249px;
     height:250px;
     width:120px;
    
+}
+.text1{
+    position: relative;
+    top:134px;
+    float:left;
+    margin-left: 113px;
+    text-align:end;
+    left:-29px;
+}
+.text1>h3{
+    color:#38a9b4;
+}
+.text2{
+    position: relative;
+    top:300px;
+    float:left;
+    left: -398px;
+    text-align:end;
+}
+.text2>h3{
+    color:#38a9b4;
+}
+
+.text3{
+    position: relative;
+    top:102px;
+    float:right;
+    text-align:left;
+}
+.text3>h3{
+    color:#38a9b4;
+}
+
+
+.text4{
+    position: relative;
+    top:312px;
+    float:right;
+    margin-right: -275px;
+    text-align:left;
+}
+.text4>h3{
+    color:#38a9b4;
+}
+
+
+.text5{
+    position: relative;
+    top:520px;
+    float:right;
+    margin-right: -279px;
+    text-align:left;
+}
+.text5>h3{
+    color:#38a9b4;
+}
+
+
+button.aventure{
+    background-color:#d95d77;
+    color:white;
+    border-radius: 10px 10px 10px 10px;
+    width:167px;
+    height:46px;
+    border:none;
+    font-weight: bold;
+    position: relative;
+    left:620px;
+    top:-83px;
 }
 
 /** partie du logo**/
@@ -148,16 +191,206 @@ img.imgsite1 {
 
 .forfait {
     background-color: #dd9021;
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .forfait>h2 {
     color:white;
     text-align: center;
     padding-top: 75px;
+    font-weight: 700;
     
 }
+
+.container {
+   margin-left: 220px;
+   margin-right: 100px;
+   border-collapse: collapse;
+   border-spacing: 0;
+   margin-bottom: 100px;
+   
+}
+
+
+.container table{
+    border: 0px;
+    border-collapse: collapse!important;
+    margin-bottom: 100px;
+}
+
+.container th{
+    border-right: 10px solid #db9347 ;
+    text-align: center;
+}
+
+.container td{
+    border-right: 10px solid #db9347 ;
+}
+
+.table {
+    width: 400px;
+    height: 450px;
+    margin-left:200px;
+}
+
+
+table tbody tr th{
+    font-weight: lighter;
+    font-size: small;
+    background-color: white;
+    padding-left: 10px ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 350px;
+    height:30px;
+    border-collapse: collapse !important;
+
+}
+
+
+table>tbody>tr:nth-child(2n)> :first-child {
+    background-color: #f0f0f0;
+    text-align: left;
+}
+
+table>tbody>tr:nth-child(2n+1)>:first-child{
+    background-color: #f9f9f9;
+    text-align: left;
+}
+
+table>tbody>td{
+    text-align: center;
+    border-collapse: collapse !important;
+
+}
+
+
+.container table thead tr th:nth-child(1) {
+    
+    font-weight: lighter;
+    font-size: 14px;
+    color:#54554e;
+    padding-bottom: 15px ;
+    background-color: #dd9021;
+    height:100px;
+    border-radius: 8% 8% 0% 0%;
+
+}
+
+.container table thead tr th:nth-child(2){
+    background-image:url(assets/features-header.png);
+    background-repeat: no-repeat;
+    border-radius: 8% 8% 0% 0%;
+    height:100px;
+}
+.container table thead tr th:nth-child(3){
+    background-image:url(assets/features-header.png);
+    background-repeat: no-repeat;
+    border-radius: 8% 8% 0% 0%;
+    height:100px;
+}
+
+.container table thead tr :nth-child(4){
+    background-image:url(assets/features-header.png);
+    background-repeat: no-repeat;
+    border-radius: 8% 8% 0% 0%;
+    height:100px;
+    width:170px;
+}
+
+
+td{
+    border: none;
+    font-size: 14px;
+    padding: 20px;
+    border-radius: 0% 0% 6% 6%;
+}
+
+
+.container table tbody tr th{
+    padding: 10px;
+    border-collapse: collapse!important;
+    color:#54554e;
+    font-size: 14px;
+    text-align: left;
+    border-right: 10px solid #db9347;
+
+}
+
+
+.container table tfoot tr th:nth-child(1){
+    background-color: #dd9021;
+}
+
+table>tbody>tr{
+    text-align: center;
+}
+
+  /**couleurs des colonnes**/
+table>tbody>tr:nth-child(2n)>:nth-child(2){
+    background-color:#d3f0fb;
+  
+}
+
+table>tbody>tr:nth-child(2n+1)>:nth-child(2){
+    background-color:#a7e1f8;
+}
+
+table>tbody>tr:nth-child(2n+1)>:nth-child(3){
+    background-color: #7fd3d4;
+}
+
+table>tbody>tr:nth-child(2n)>:nth-child(3){
+    background-color: #bfeae9;
+}
+
+table>tbody>tr:nth-child(2n)>:nth-child(4){
+    background-color: #F5D5DC;
+}
+
+table>tbody>tr:nth-child(2n+1)>:nth-child(4){
+    background-color:#ecacb8;
+}
+
+/**footer*/
+
+.container tfoot td{
+    background-color: white;
+    height: 80px;
+}
+
+  /**couleurs des boutons**/
+
+
+.btn {
+    color: white;
+    padding: 7px;
+    border: transparent 1px solid;
+    border-radius: 8px;
+    box-shadow: none;
+    width: 130px;
+}
+
+
+.btn-blue{
+    background-color: #86d7f4;
+}
+
+.btn-green{
+    background-color: #4ab5b5;
+}
+
+.btn-pink{
+    background-color: #ef6275;  
+}
+
+
+
+
 
 /**avantage**/
 .avantage {
@@ -165,7 +398,7 @@ img.imgsite1 {
     height: 50vh;
     padding-top: 125px;
     text-align:center;
-    
+    padding-bottom: 50px;
 }
 
 .avantage>p {
@@ -204,32 +437,43 @@ img.icon{
 }
 
 /**tuto**/
+
 .tuto {
-    height: 100vh;
-    overflow: hidden;
+    min-height: 100vh; 
     background-color:#e3e2dd;
+    display:flex;
+    justify-content: space-between;
+
 }    
 
 .vertical-line {
     border-left:2px solid #b72e1b;
-    height: 100%; 
-    margin-left:650px;
-    
+    min-height: 100%; 
+    position: relative;
+    left:100px;
+    width: 20%;
 }
-.left {
-    
-    width: 600px;
-    float:left;
-    padding-top:30px;
-    text-align:center;
 
+.left {
+
+    min-height :100vh;
+    padding-top:30px;
+    text-align:right;
+    margin-left: 50px;
+    width:40%;
+    position:relative;
+    left: 48px;
 }
+
 
 .right {
-    width: 400px;
-    float:right;
-    padding-top:30px;
-
+    min-height :100vh;
+    text-align:center;
+    width:40%;
+    padding-left: 15px;
+    position: relative;
+    right: 122px;
+    
 }
 img.nucleus{
     height: 380px;
@@ -242,17 +486,34 @@ img.nucleus{
     text-align: right;
     margin-top:40px;
     font-family: 'Raleway', sans-serif;
-
+    font-size:24px;
+    font-weight: bold;
 }
 
 .left>p {
     font-family: 'Raleway', sans-serif;
-    font-size:16px;
+    font-size:14px;
     text-align: right;
     line-height:30px;
+    
 }
 
+.right>h2 {
+    color:#db597d;
+    text-align: left;
+    margin-top:40px;
+    font-family: 'Raleway', sans-serif;
+    font-size:24px;
+    font-weight: bold;
 
+}
+
+.right>p {
+    font-family: 'Raleway', sans-serif;
+    font-size:14px;
+    text-align: left;
+    line-height:30px;
+}
 /**bande logo site **/
 /**footer**/
 
@@ -262,6 +523,7 @@ footer {
     width: 100%;
     bottom:0;
     padding-top: 10px;
+    padding-bottom: 150px;
    
 }
 
@@ -273,7 +535,8 @@ footer>p {
     font-size:16px;
     justify-content: center;
     padding-bottom: 50px;
-
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 footer>h2 {
@@ -296,6 +559,8 @@ img.team {
 
 .bordure {
     border-bottom: 1px solid white;
+    margin-left:235px;
+    margin-right: 235px;
 } 
 
 button.histoire {
